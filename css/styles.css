@@ -1,5 +1,7 @@
+
 .background-image {
-  background: url('img/bg.jpg') no-repeat center center fixed;
+  background: url("../img/IMG_1522.jpg") no-repeat center center fixed;
+  
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -12,7 +14,7 @@
   bottom: 0;
   left: 0;
   
-  opacity: 0;
+  opacity: 1;
   
   -webkit-animation-name: fade-in;
   -webkit-animation-duration: 1s;
@@ -25,6 +27,7 @@
   -moz-animation-timing-function: ease-in;
   -moz-animation-iteration-count: 1;
   -moz-animation-delay: 2s;
+
 }
 
 .background-image.visible {
@@ -38,16 +41,33 @@ a:hover {
   color: #fff;
 }
 
+/* Buttons */
 /* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
+  .btn-default,
+  .btn-default:hover,
+  .btn-default:focus {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #339;
+    border: 3px solid #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 5px;
+  }
+/* Custom primary button */
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-primary:focus {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #933;
+    border: 3px solid #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+  }
 
 /*
  * Base structure
